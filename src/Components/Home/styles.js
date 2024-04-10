@@ -70,4 +70,49 @@ export const ButtonCv = styled.button`
 `
 export const IconeDownload = styled(GoDownload)`
   margin-right: 8px;
+  font-size: 24px;
+`;
+export const WorkDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+export const XpDiv = styled.div`
+  width: 457px;
+  margin-top: 150px;
+`
+export const TextXp = styled.h2`
+  font-family: 'Inter', sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: ${COLORS.primaryWhite};
+`
+export const DivService = styled.div`
+  display: grid;
+  width: 360px;
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-left: auto;
+`
+export const TextService = styled.h3`
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: ${COLORS.primaryGreen};
+`
+export const DescriptionService = styled.p`
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: ${COLORS.Gray};
+`
+export const LineBefore = styled.span`
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: ${COLORS.Gray};
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1; /* Coloca a linha atrás do texto */
+  margin-left: -20px; /* Ajuste para o início da linha */
 `;
