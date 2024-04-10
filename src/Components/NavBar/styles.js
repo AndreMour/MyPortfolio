@@ -9,7 +9,8 @@ export const NavContainer = styled.div`
 `
 export const TitleDiv = styled.div`
   display: flex;
-  margin-left: -270px;
+  margin-left: 150px;
+  margin-right: auto;
 `
 export const Title = styled.h3`
   color: ${COLORS.primaryWhite};
@@ -23,7 +24,8 @@ export const Dot = styled.h3`
 export const DivPages = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -270px;
+  margin-right: 150px;
+  margin-left: auto;
 `
 export const Pages = styled.h5`
   color: ${COLORS.primaryWhite};
