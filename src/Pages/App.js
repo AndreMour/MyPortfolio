@@ -1,15 +1,12 @@
-import { BackContainer, Container, InnerContainer } from "./styles";
+import NavBar from "../Components/NavBar/NavBar";
+import { Container } from "./styles";
 
 
 function App() {
   return (
-    <BackContainer>
-     <Container>
-      <InnerContainer>
-
-      </InnerContainer>
-     </Container>
-    </BackContainer>
+    <Container>
+      <NavBar />
+    </Container>
   );
 }
 
