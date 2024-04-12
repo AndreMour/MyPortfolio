@@ -14,7 +14,7 @@ const NavBar = () => {
       </TitleDiv>
       <DivPages>
         <Pages>Home</Pages>
-        <Pages>Experiência</Pages>
+        <Pages>Habilidades</Pages>
         <Pages>Projetos</Pages>
         <Button>Contato</Button>
       </DivPages>

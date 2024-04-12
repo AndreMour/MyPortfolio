@@ -1,6 +1,7 @@
 import NavBar from "../Components/NavBar/Index";
 import Home from "../Components/Home/Index";
 import { Container } from "./styles";
+import Skills from "../Components/Skills";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Container>
       <NavBar />
       <Home />
+      <Skills />
     </Container>
   );
 }

@@ -48,7 +48,7 @@ const Index = () => {
         </DivButtons>
         <WorkDiv>
           <XpDiv>
-            <TextXp>1 year experience working</TextXp>
+            <TextXp>1 ano de experiência</TextXp>
           </XpDiv>
           <DivService>
             <TextService><LineBefore></LineBefore>Serviços</TextService>
