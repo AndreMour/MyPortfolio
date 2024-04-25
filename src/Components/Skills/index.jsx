@@ -20,8 +20,8 @@ const Skills = () => {
             </TitleDiv>
             <DescriptionDiv>
               <Description>
-                Specialize in responsive and interactive front-end development. 
-                With a deep understanding of HTML, CSS, and JS.
+                  Densenvolvimento de apps e websites, com foco em React 
+                  e React Native.
               </Description>
             </DescriptionDiv>
         </SkillContainer>

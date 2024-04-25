@@ -78,7 +78,7 @@ export const WorkDiv = styled.div`
 `
 export const XpDiv = styled.div`
   width: 457px;
-  margin-top: 150px;
+  margin-top: 120px;
 `
 export const TextXp = styled.h2`
   font-family: 'Inter', sans-serif;
@@ -89,7 +89,7 @@ export const TextXp = styled.h2`
 export const DivService = styled.div`
   display: grid;
   width: 360px;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-right: 150px;
   margin-left: auto;
 `
