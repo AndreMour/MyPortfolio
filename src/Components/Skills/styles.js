@@ -15,8 +15,8 @@ export const SkillContainer = styled.div`
 `
 export const DivIcons = styled.div`
     display: flex;
-    margin-top: 100px;
-    margin-left: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
 `
 export const Circle = styled.div`
     background-color: ${COLORS.primaryGreen};
@@ -25,10 +25,37 @@ export const Circle = styled.div`
     border-radius: 50%;
     margin-top: 10px;
 `
+export const IconDiv = styled.div`
+    display: flex;
+    margin-top: -25px;
+    width: 50px;
+    margin-left:-20px;
+`
 
 export const IconFront = styled(FaCode)`
-    font-size: 33px;
+    font-size: 50px;
     color: white;
+`
+export const TitleDiv = styled.div`
+    display: grid;
+    margin-left: 30px;
+    margin-top: 20px;
+`
+export const Title = styled.h3`
+    font-size: 26px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 700;
+    color: white;
+
+`
+export const DivDescription = styled.div`
+    display: flex;
+`
+export const Description = styled.h5`
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 400;
+    color: ${COLORS.Gray};
 `
 
 
