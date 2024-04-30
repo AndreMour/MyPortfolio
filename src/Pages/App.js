@@ -3,6 +3,7 @@ import Home from "../Components/Home/Index";
 import { Container } from "./styles";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";
+import Notification from "../Components/Notification/Index";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Skills />
         <Projects />
+        <Notification />
       </Container>
     </>
   );
