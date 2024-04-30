@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { COLORS } from "../../colors/colors";
+import { COLORS } from "../../assets/colors/colors";
+import { GoArrowUpRight } from "react-icons/go";
 
 export const Container = styled.div`
     width: 100%;
@@ -41,9 +42,47 @@ export const Button = styled.button`
     color: ${COLORS.primaryWhite};
     border: 1px solid ${COLORS.primaryGreen};
     margin-left: 40px;
+    cursor: pointer;
 `
 export const AlignDiv = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
+`
+export const InlineDiv = styled.div`
+    display: flex;
+    margin-top: 80px;
+`
+export const ProjectDiv = styled.div`
+    height: 478px;
+    width: 550;
+`
+export const Images = styled.img`
+    width: 550px;
+    height: 368px;
+`
+export const ProjectTitle = styled.h3`
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: ${COLORS.primaryWhite};
+    margin-top: 20px;
+`
+export const SeeDiv = styled.div`
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    width: max-content;
+`
+export const SeeProject = styled.h5`
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: ${COLORS.primaryGreen};
+`
+export const SeeIcon = styled(GoArrowUpRight)`
+    font-size: 24px;
+    color: ${COLORS.primaryGreen};
+    margin-left: 5px;
 `

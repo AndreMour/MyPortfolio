@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "../../colors/colors";
+import { COLORS } from "../../assets/colors/colors";
 import { FaCode } from "react-icons/fa6";
 
 export const Container = styled.div`

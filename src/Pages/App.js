@@ -8,13 +8,13 @@ import Projects from "../Components/Projects";
 function App() {
   return (
     <>
-    <Container>
-      <NavBar />
-      <Home />
-      <Skills />
-      <Projects />
-    </Container>
-       </>
+      <Container>
+        <NavBar />
+        <Home />
+        <Skills />
+        <Projects />
+      </Container>
+    </>
   );
 }
 

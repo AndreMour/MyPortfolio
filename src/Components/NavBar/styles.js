@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "../../colors/colors";
+import { COLORS } from "../../assets/colors/colors";
 
 export const NavContainer = styled.div`
   display: flex;
