@@ -1,7 +1,12 @@
-import styled from 'styled-components';
+import { styled, keyframes } from 'styled-components';
 import { COLORS } from '../../assets/colors/colors';
 import { GoDownload } from "react-icons/go";
 
+const blink = keyframes`
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+`
 export const HomeContainer = styled.div`
   display: grid;
   margin-left: 150px;
@@ -30,6 +35,7 @@ export const Bar = styled.h1`
   font-size: 88px;
   font-weight: 500;
   color: ${COLORS.primaryWhite};
+  animation: ${blink} 1s linear infinite;
 `
 export const DivDescription = styled.div`
   margin-top: 30px;
