@@ -31,6 +31,7 @@ export const Pages = styled.h5`
   color: ${COLORS.primaryWhite};
   font-family: 'Inter', sans-serif;
   font-size: 14px;
+  cursor: pointer;
   margin-left: 40px;
 `
 export const Button = styled.button`
@@ -39,8 +40,13 @@ export const Button = styled.button`
   font-weight: 700;
   width: 88px;
   height: 38px;
+  cursor: pointer;
   background-color: transparent;
   color: ${COLORS.primaryWhite};
   border: 1px solid ${COLORS.primaryGreen};
   margin-left: 40px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+    &:hover {
+    background-color: ${COLORS.primaryGreen};
+  }
 `

@@ -53,6 +53,7 @@ export const ButtonEmail = styled.button`
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
   color: ${COLORS.primaryWhite};
 `
 export const ButtonCv = styled.button`

@@ -53,6 +53,7 @@ export const TextHover = styled.p`
   font-size: 16px;
   font-weight: 400;
   color: ${COLORS.Gray};
+  cursor: pointer;
   &:hover {
     text-decoration: underline;
   }

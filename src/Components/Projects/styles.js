@@ -43,6 +43,10 @@ export const Button = styled.button`
     border: 1px solid ${COLORS.primaryGreen};
     margin-left: 40px;
     cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+        &:hover {
+    background-color: ${COLORS.primaryGreen};
+  }
 `
 export const AlignDiv = styled.div`
     display: flex;
