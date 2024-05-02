@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   Area, DivArea, DivName, HomeContainer, Name, Bar,
   DivDescription, Description, DivButtons, ButtonEmail,
@@ -9,11 +9,17 @@ import {
   XpDiv,
   DivService,
   TextService,
-  DescriptionService,
-  LineBefore
+  DescriptionService
 } from './styles';
+import Curriculo from '../../assets/archives/Curriculo.pdf'
 
 const Index = () => {
+  const [cvFile] = useState(Curriculo);
+
+  const handleDownloadCv = () => {
+    window.open(cvFile, '_blank');
+  }
+
   return (
     <>
       <HomeContainer>
@@ -41,12 +47,12 @@ const Index = () => {
         </DivDescription>
         <DivButtons>
           <ButtonEmail>Email Me</ButtonEmail>
-          <ButtonCv>
+          <ButtonCv id="downloadButton" onClick={handleDownloadCv}>
             <IconeDownload />
             Download CV
           </ButtonCv>
         </DivButtons>
-        <WorkDiv>
+        <WorkDiv id="skills">
           <XpDiv>
             <TextXp>-1 ano de experiência</TextXp>
           </XpDiv>
