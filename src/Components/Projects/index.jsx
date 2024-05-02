@@ -13,7 +13,7 @@ import CalendarApp from "../../assets/images/icon_calendar.png"
 
 const Projects = () => {
     return (
-        <Container>
+        <Container id="projects">
             <ContainerContent>
                 <Text>Projetos Recentes</Text>
                 <AlignDiv>

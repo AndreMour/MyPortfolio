@@ -10,7 +10,7 @@ import Footer from "../Components/Footer/Index";
 function App() {
   return (
     <>
-      <Container>
+      <Container id='home'>
         <NavBar />
         <Home />
         <Skills />
