@@ -4,6 +4,7 @@ import { Container } from "./styles";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";
 import Notification from "../Components/Notification/Index";
+import Footer from "../Components/Footer/Index";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Skills />
         <Projects />
         <Notification />
+        <Footer />
       </Container>
     </>
   );
