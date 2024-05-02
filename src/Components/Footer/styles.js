@@ -48,12 +48,13 @@ export const Text = styled.p`
   font-weight: 400;
   color: ${COLORS.Gray};
 `
-export const TextHover = styled.p`
+export const TextHover = styled.a`
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: ${COLORS.Gray};
   cursor: pointer;
+  text-decoration: none;
   &:hover {
     text-decoration: underline;
   }

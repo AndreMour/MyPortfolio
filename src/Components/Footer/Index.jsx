@@ -30,9 +30,9 @@ const Footer = () => {
             <SecundaryTitles>
               Redes Sociais
             </SecundaryTitles>
-            <TextHover>Linkedin</TextHover>
-            <TextHover>GitHub</TextHover>
-            <TextHover>Instagram</TextHover>
+            <TextHover href="http://linkedin.com/in/andre-moura-b82267268" target="_blank" rel="noopener noreferrer">Linkedin</TextHover>
+            <TextHover href="https://github.com/AndreMour" target="_blank" rel="noopener noreferrer">GitHub</TextHover>
+            <TextHover href="https://www.instagram.com/andreczw/" target="_blank" rel="noopener noreferrer">Instagram</TextHover>
           </DivInfos>
         </AlignInfo>
       </Content>

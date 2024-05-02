@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export const Container = styled.div`
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color:  ${COLORS.lightDark};
     margin-top: 120px;
 `
@@ -29,7 +29,7 @@ export const Title = styled.h3`
     font-weight: 700;
     color: ${COLORS.primaryWhite};
 `
-export const DivButton = styled.div`
+export const DivButton = styled.a`
     margin-top: 20px;
 `
 export const Button = styled.button`
@@ -56,13 +56,29 @@ export const AlignDiv = styled.div`
 export const InlineDiv = styled.div`
     display: flex;
     margin-top: 80px;
+    justify-content: space-between;
 `
 export const ProjectDiv = styled.div`
     width: 40%;
+    display: flex;
+    justify-content: flex-end;
 `
-export const Images = styled.img`
+export const Image = styled.img`
     width: 100%;
-    height: auto;
+    height: 60%;
+`
+export const ImageApp = styled.img`
+    width: 75%;
+    height: 60%;
+`
+export const WebDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+export const AppDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
 `
 export const ProjectTitle = styled.h3`
     font-family: 'Inter', sans-serif;
@@ -77,11 +93,14 @@ export const SeeDiv = styled.div`
     margin-top: 15px;
     cursor: pointer;
     width: max-content;
+    margin-bottom: 100px;
+    width: 288px;
 `
-export const SeeProject = styled.h5`
+export const SeeProject = styled.a`
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    text-decoration: none;
     color: ${COLORS.primaryGreen};
 `
 export const SeeIcon = styled(GoArrowUpRight)`
