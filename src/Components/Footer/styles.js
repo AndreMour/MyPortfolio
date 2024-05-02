@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { COLORS } from "../../assets/colors/colors"
 
 export const Container = styled.div`
-  height: 335px;
+  height: 339px;
   padding: 0 150px;
   background-color: ${COLORS.deepDark};
 `

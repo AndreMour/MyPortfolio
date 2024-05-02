@@ -3,6 +3,6 @@ import { COLORS } from "../assets/colors/colors";
 
 export const Container = styled.div`
     background-color: ${COLORS.Dark};
-    height: 3000px;
+    height: 100%;
 `
 

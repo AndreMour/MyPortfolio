@@ -106,14 +106,3 @@ export const DescriptionService = styled.p`
   font-weight: 400;
   color: ${COLORS.Gray};
 `
-export const LineBefore = styled.span`
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 2px;
-  background-color: ${COLORS.Gray};
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: -1; /* Coloca a linha atrás do texto */
-  margin-left: -20px; /* Ajuste para o início da linha */
-`;

@@ -51,7 +51,7 @@ const Index = () => {
             <TextXp>-1 ano de experiência</TextXp>
           </XpDiv>
           <DivService>
-            <TextService><LineBefore></LineBefore>Serviços</TextService>
+            <TextService>Serviços</TextService>
             <DescriptionService>Criação e manutenção de Websites e Aplicativos.</DescriptionService>
           </DivService>
         </WorkDiv>
