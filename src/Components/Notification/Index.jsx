@@ -1,5 +1,8 @@
 import React from "react";
-import { Container, DivText, SubText, Text } from "./styles";
+import {
+  Button, Container, DivButton,
+  DivText, SubText, Text
+} from "./styles";
 
 const Notification = () => {
   return (
@@ -12,6 +15,9 @@ const Notification = () => {
           Sinta-se a vontade para me enviar uma mensagem!
         </SubText>
       </DivText>
+      <DivButton>
+        <Button>Clique Aqui!</Button>
+      </DivButton>
     </Container>
   )
 }

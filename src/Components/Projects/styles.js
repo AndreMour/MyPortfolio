@@ -54,12 +54,11 @@ export const InlineDiv = styled.div`
     margin-top: 80px;
 `
 export const ProjectDiv = styled.div`
-    height: 478px;
-    width: 550;
+    width: 40%;
 `
 export const Images = styled.img`
-    width: 550px;
-    height: 368px;
+    width: 100%;
+    height: auto;
 `
 export const ProjectTitle = styled.h3`
     font-family: 'Inter', sans-serif;
