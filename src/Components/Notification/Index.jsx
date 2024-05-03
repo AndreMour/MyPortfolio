@@ -5,6 +5,8 @@ import {
 } from "./styles";
 
 const Notification = () => {
+  const whatsAppUrl = "https://wa.me/5541998486650"
+
   return (
     <Container>
       <DivText>
@@ -16,7 +18,7 @@ const Notification = () => {
         </SubText>
       </DivText>
       <DivButton>
-        <Button>Clique Aqui!</Button>
+        <Button onClick={() => window.open(whatsAppUrl, "_blank")}>Clique Aqui!</Button>
       </DivButton>
     </Container>
   )
