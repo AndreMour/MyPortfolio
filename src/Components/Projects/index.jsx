@@ -5,8 +5,7 @@ import {
     Text, Title, InlineDiv, ProjectDiv,
     Image, ProjectTitle, SeeProject,
     SeeIcon, SeeDiv, ImageApp,
-    AppDiv,
-    WebDiv
+    AppDiv, WebDiv
 } from "./styles";
 import Calendar from "../../assets/images/Calendar.png"
 import CalendarApp from "../../assets/images/icon_calendar.png"

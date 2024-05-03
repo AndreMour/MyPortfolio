@@ -9,9 +9,7 @@ const blink = keyframes`
 `
 export const HomeContainer = styled.div`
   display: grid;
-  margin-left: 150px;
-  margin-right: auto;
-  margin-top: 120px;
+  margin: 120px auto 0 150px;
 `
 export const DivName = styled.div`
 `
@@ -96,9 +94,7 @@ export const TextXp = styled.h2`
 export const DivService = styled.div`
   display: grid;
   width: 360px;
-  margin-top: 120px;
-  margin-right: 150px;
-  margin-left: auto;
+  margin: 120px 150px 0 auto;
 `
 export const TextService = styled.h3`
   font-family: 'Inter', sans-serif;

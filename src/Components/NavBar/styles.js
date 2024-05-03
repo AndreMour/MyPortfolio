@@ -3,8 +3,7 @@ import { COLORS } from "../../assets/colors/colors";
 
 export const Spacer = styled.div`
   height: 74px; 
-`;
-
+`
 export const NavContainer = styled.div`
   display: flex;
   align-items: center;
@@ -15,12 +14,10 @@ export const NavContainer = styled.div`
   width: 100%;
   z-index: 1000;
   background-color: ${COLORS.Dark};
-`;
-
+`
 export const TitleDiv = styled.div`
   display: flex;
-  margin-left: 150px;
-  margin-right: auto;
+  margin: 0 auto 0 150px;
 `
 export const Title = styled.h3`
   color: ${COLORS.primaryWhite};
@@ -34,8 +31,7 @@ export const Dot = styled.h3`
 export const DivPages = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 150px;
-  margin-left: auto;
+  margin: 0 150px;
 `
 export const Pages = styled.h5`
   color: ${COLORS.primaryWhite};

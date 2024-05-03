@@ -9,8 +9,7 @@ export const Container = styled.div`
     margin-top: 120px;
 `
 export const ContainerContent = styled.div`
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0 150px;
     padding-top: 100px;
 `
 export const Text = styled.h5`
@@ -41,7 +40,6 @@ export const Button = styled.button`
     background-color: transparent;
     color: ${COLORS.primaryWhite};
     border: 1px solid ${COLORS.primaryGreen};
-    margin-left: 40px;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
         &:hover {
@@ -90,10 +88,9 @@ export const ProjectTitle = styled.h3`
 export const SeeDiv = styled.div`
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin: 15px 0 100px 0;
     cursor: pointer;
     width: max-content;
-    margin-bottom: 100px;
     width: 288px;
 `
 export const SeeProject = styled.a`

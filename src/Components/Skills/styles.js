@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa6";
 export const Container = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 120px 150px 0 150px;
+    margin: 120px 150px;
 `
 export const SkillContainer = styled.div`
     width: 360px;
@@ -15,8 +15,7 @@ export const SkillContainer = styled.div`
 `
 export const DivIcons = styled.div`
     display: flex;
-    margin-top: 80px;
-    margin-left: 50px;
+    margin: 80px 0 0 50px;
 `
 export const Circle = styled.div`
     background-color: ${COLORS.primaryGreen};
@@ -26,20 +25,15 @@ export const Circle = styled.div`
     margin-top: 10px;
 `
 export const IconDiv = styled.div`
-    display: flex;
-    margin-top: -20px;
+    margin: -20px 0 0 -19px;
     width: 50px;
-    margin-left: -19px;
 `
-
 export const IconFront = styled(FaCode)`
     font-size: 40px;
     color: white;
 `
 export const TitleDiv = styled.div`
-    display: grid;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin: 20px 0 0 30px;
 `
 export const Title = styled.h3`
     font-size: 26px;
@@ -48,8 +42,7 @@ export const Title = styled.h3`
     color: white;
 `
 export const DescriptionDiv = styled.div`
-    display: flex;
-    margin: 20px 30px 0 30px;
+    margin: 20px 30px;
     justify-content: flex-end;
 `
 export const Description = styled.h5`
