@@ -1,5 +1,18 @@
 import styled from "styled-components";
 import { COLORS } from "../../assets/colors/colors";
+import { ToastContainer } from 'react-toastify';
+
+export const StyledToastContainer = styled(ToastContainer).attrs({
+})`
+  .Toastify__toast--error {
+    background: ${COLORS.Dark};
+    color: white;
+  }
+  .Toastify__toast--success {
+    background: ${COLORS.Dark};
+    color: white;
+  }
+`;
 
 export const Container = styled.div`
   width: 100vw;
@@ -14,7 +27,7 @@ export const Container = styled.div`
 `
 export const Modal = styled.div`
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
@@ -84,7 +97,7 @@ export const Cancelar = styled.button`
   background-color: transparent;
   color: ${COLORS.primaryWhite};
   border: 1px solid red;
-  transition: background-color 0.2s ease, color 0.s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
     &:hover {
     background-color: red;
   }
@@ -99,7 +112,7 @@ export const Enviar = styled.button`
   background-color: transparent;
   color: ${COLORS.primaryWhite};
   border: 1px solid ${COLORS.primaryGreen};
-  transition: background-color 0.2s ease, color 0.s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
     &:hover {
     background-color: ${COLORS.primaryGreen};
   }

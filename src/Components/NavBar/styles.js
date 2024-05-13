@@ -83,7 +83,7 @@ export const Button = styled.button`
   color: ${COLORS.primaryWhite};
   border: 1px solid ${COLORS.primaryGreen};
   margin-left: 40px;
-  transition: background-color 0.2s ease, color 0.s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
     &:hover {
     background-color: ${COLORS.primaryGreen};
   }

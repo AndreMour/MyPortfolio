@@ -12,9 +12,15 @@ import {
   DescriptionService
 } from './styles';
 import Curriculo from '../../assets/archives/Curriculo.pdf'
+import Modal from '../Modal/Index'
 
 const Index = () => {
   const [cvFile] = useState(Curriculo);
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
 
   const handleDownloadCv = () => {
     window.open(cvFile, '_blank');
@@ -46,7 +52,10 @@ const Index = () => {
           </Description>
         </DivDescription>
         <DivButtons>
-          <ButtonEmail>Email Me</ButtonEmail>
+          <ButtonEmail onClick={toggleModal}>Email Me</ButtonEmail>
+          {modal && (
+            <Modal setModal={setModal} />
+          )}
           <ButtonCv id="downloadButton" onClick={handleDownloadCv}>
             <IconeDownload />
             Download CV
