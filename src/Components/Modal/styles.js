@@ -101,6 +101,9 @@ export const Cancelar = styled.button`
     &:hover {
     background-color: red;
   }
+    &:active {
+      transform: scale(1.05);
+        }
 `
 export const Enviar = styled.button`
   font-family: 'Inter', sans-serif;
@@ -116,4 +119,7 @@ export const Enviar = styled.button`
     &:hover {
     background-color: ${COLORS.primaryGreen};
   }
+    &:active {
+      transform: scale(1.05);
+        }
 `
